@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            color: #666;
+        }
+        ul {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+   <h1>Currriculum Vitae</h1>
+
+   <h2>Informasi Pribadi</h2>
+   <p>Nama: Siti Choirunnisa</p>
+   <p>Alamat: Jalan Rajawali Gang Rujak Sente RT/RW: 004/004 No. 13 Klaten Tengah Klaten</p>
+   <p>Email: choirunn722@gmail.com</p>
+
+   <h2>Pendidikan</h2>
+   <ul>
+        <li>SD Negeri 1 Klaten (2008-2014)</li>
+        <li>MTs Negeri 1 Klaten (2014-2017)</li>
+        <li>MA Negeri 1 Klaten (2017-2020)</li>
+        <li>UNU Yogyakarta (2021-Sekarang)</li>
+   </ul>
+
+   <h2>Pengalaman Kerja</h2>
+   <ul>
+        <li>Juice & Laundry (2020)</li>
+        <li>Warung Ramen (2021)</li>
+        <li>Program Tutor Bahasa Inggris di MA Negeri 1 Mojokerto (2022)</li>
+        <li>Program Tutor Bahasa Inggris di MA Muallimat Jombang (2023)</li>
+        <li>Program Tutor Bahasa Inggris di MA Negeri 1 Yogyakarta (2023)</li>
+   </ul>
+
+   <h3>Organisasi</h3>
+   <ul>
+        <li>SD Negeri 1 Klaten:     Pramuka</li>
+        <li>MTs Negeri 1 Klaten:    Pramuka Dewan Penggalang jabatan Pratama Putri (2015-2016)</li>
+        <li>                        OSIS sebagai Tim Lapangan (2015-2016)</li>
+        <li>                        Pramuka Dewan Kehormatan Penggalang jabatan Pratama Putri (2016-2017)</li>
+        <li>                        Paskibraka jabatan Ketua Organisasi (2016-2017)</li>
+        <li>MA Negeri 1 Klaten:     Pramuka Dewan Ambalan jabatan Pradana Putri (2018-2019)</li>
+        <li>                        Klub Basket Sekolah jabatan Ketua Tim Putri</li>
+        <li>                        Pramuka Dewan Kehormatan jabatan Pradana Putri (2019-2020)</li>
+   </ul>
+
+   <h4>Hobi</h4>
+   <ul>
+        <li>Membaca & Menulis</li>
+        <li>Renang</li>
+        <li>Basket</li>
+        <li>Mendengarkan Musik</li>
+   </ul>
+</body>
+</html>
