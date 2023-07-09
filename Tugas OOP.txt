@@ -1,0 +1,40 @@
+<?php
+class Angka {
+    protected $data;
+
+    public function __construct($data) {
+        $this->data = $data;
+    }
+
+    public function hitungTotal() {
+        return array_sum($this->data);
+    }
+
+    public function hitungRataRata() {
+        $jumlah = count($this->data);
+        return $jumlah > 0 ? array_sum($this->data) / $jumlah : 0;
+    }
+
+    public function cariNilaiTertinggi() {
+        return max($this->data);
+    }
+
+    public function cariNilaiTerendah() {
+        return min($this->data);
+    }
+}
+
+
+// Contoh penggunaan kelas Angka
+$data = [];
+for ($i = 0; $i < 50; $i++) {
+    $data[] = rand(1, 100);
+}
+
+$angka = new Angka($data);
+
+echo "Data: " . implode(", ", $angka->data) . "\n";
+echo "Total: " . $angka->hitungTotal() . "\n";
+echo "Rata-rata: " . $angka->hitungRataRata() . "\n";
+echo "Nilai tertinggi: " . $angka->cariNilaiTertinggi() . "\n";
+echo "Nilai terendah: " . $angka->cariNilaiTerendah() . "\n";
