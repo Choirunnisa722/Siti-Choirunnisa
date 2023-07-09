@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rakaman dengan 6 Tabel Logo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <table class="logo-table">
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNo4X9p-Qhqj3V3qE2e8V73j1ARz3PKWDlBw&usqp=CAU" alt="Logo 1"></td>
+      </tr>
+    </table>
+    <table class="logo-table">
+      <tr>
+        <td><img src="https://bcassetcdn.com/public/blog/wp-content/uploads/2022/06/16234835/Header-BTS-Logo-A-Symbol-of-Oneness.png" alt="Logo 2"></td>
+      </tr>
+    </table>
+    <table class="logo-table">
+      <tr>
+        <td><img src="https://akcdn.detik.net.id/visual/2022/08/08/girls-generation-snsd_169.jpeg?w=650" alt="Logo 3"></td>
+      </tr>
+    </table>
+    <table class="logo-table">
+      <tr>
+        <td><img src="https://e0.pxfuel.com/wallpapers/114/328/desktop-wallpaper-twice-logo-page-1.jpg" alt="Logo 4"></td>
+      </tr>
+    </table>
+    <table class="logo-table">
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXgZoQbutRvBUsJ4eLBs16nTp6Xow4TVTrw&usqp=CAU" alt="Logo 5"></td>
+      </tr>
+    </table>
+    <table class="logo-table">
+      <tr>
+        <td><img src="https://disk.mediaindonesia.com/thumbs/1800x1200/news/2023/05/cbf70b63d906db59a9aeb5225cd463e2.jpg" alt="Logo 6"></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
+
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+logo-table {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+logo-table img {
+    max-width: 100%;
+    max-height: 100%;
+  }
